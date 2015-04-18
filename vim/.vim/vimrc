@@ -1,3 +1,4 @@
 execute pathogen#infect()
 
-nnoremap <F5> :GundoToggle<CR>
+nnoremap <F2> :GundoToggle<CR>
+nnoremap <F3> :TagbarToggle<CR>
