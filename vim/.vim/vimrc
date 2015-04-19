@@ -1,4 +1,8 @@
 execute pathogen#infect()
 
+set number
+set hlsearch
+syntax on
+
 nnoremap <F2> :GundoToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
