@@ -4,5 +4,6 @@ set number
 set hlsearch
 syntax on
 
+nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 nnoremap <F2> :GundoToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
