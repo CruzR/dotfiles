@@ -4,6 +4,8 @@ set number
 set hlsearch
 syntax on
 
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 nnoremap <F2> :GundoToggle<CR>
 nnoremap <F3> :TagbarToggle<CR>
