@@ -3,4 +3,4 @@ xterm*termName: xterm-256color
 xterm*faceName: monospace:size=10
 
 ! Color scheme:
-#include ".base16-xresources/base16-atelierforest.dark.256.xresources"
+#include ".base16-xresources/base16-atelierforest.dark.xresources"
