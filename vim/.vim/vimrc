@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
 let fortran_free_source=1
+set modeline
 set number
 set hlsearch
 syntax on
