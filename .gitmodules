@@ -25,3 +25,6 @@
 [submodule "vim/.vim/bundle/vim-javascript-syntax"]
 	path = vim/.vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "vim/.vim/bundle/vim-sleuth"]
+	path = vim/.vim/bundle/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
