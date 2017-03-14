@@ -1,3 +1,12 @@
+# Vim
 tags
 .netrwhist
 *.swp
+
+# Emacs
+*~
+\#*\#
+*.elc
+/emacs/.emacs.d/auto-save-list
+/emacs/.emacs.d/custom.el
+/emacs/.emacs.d/elpa
