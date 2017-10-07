@@ -32,6 +32,10 @@
 (use-package tex
   :ensure auctex)
 
+; CMake-Mode: Provides syntax highlighting and indentation for CMake.
+(use-package cmake-mode
+  :ensure t)
+
 ; Prevent M-x customize from cluttering init.el
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
