@@ -1,2 +1,1 @@
-export GOPATH=$HOME/projects/golang
-export PATH=$GOPATH/bin:$PATH
+source ~/.environment_variables/golang.sh
