@@ -14,10 +14,8 @@
 (eval-when-compile (require 'use-package))
 
 ; Evil: Extensible vi layer for Emacs. (https://www.emacswiki.org/emacs/Evil)
-; Evil cannot currently installed from melpa-stable:
-;   https://github.com/emacs-evil/evil/issues/792
-; (use-package evil
-;   :ensure t)
+ (use-package evil
+   :ensure t)
 
 ; Magit: A git porcelain inside Emacs. (https://magit.vc)
 (use-package magit
@@ -35,6 +33,22 @@
 ; CMake-Mode: Provides syntax highlighting and indentation for CMake.
 (use-package cmake-mode
   :ensure t)
+
+; PHP-Mode
+(use-package php-mode
+  :ensure t)
+
+; Protobuf mode
+(use-package protobuf-mode
+  :ensure t)
+
+; Markdown mode
+(use-package markdown-mode
+  :ensure t)
+
+(add-hook 'text-mode-hook 'evil-local-mode)
+(add-hook 'prog-mode-hook 'evil-local-mode)
+(add-hook 'protobuf-mode-hook 'evil-local-mode)
 
 ; Prevent M-x customize from cluttering init.el
 (setq custom-file "~/.emacs.d/custom.el")
